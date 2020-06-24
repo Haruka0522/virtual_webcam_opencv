@@ -67,5 +67,7 @@ if __name__ == "__main__":
                 mode = 2
             elif k == ord("3"):
                 mode = 3
+    except KeyboardInterrupt:
+        pass
     p.stdin.close()
     p.wait()
